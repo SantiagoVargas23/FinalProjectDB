@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <img src="https://cabcapital-recursos.s3.amazonaws.com/photo_profile/649dfb66aea8d051b60e95c6.jpg" alt="profile picture">
+            <h2>María Lopez</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../Inicio/inicio.html">Inicio</a></li>
+                <li><a href="../Crear_examen/crear_examen.html">Crear examen</a></li>
+                <li><a href="../Asignar_examen/asignar_examen.html">Asignar examen</a></li>
+                <li><a href="../Grupo/grupo.html" class="selected">Grupos</a></li>
+                <li><a href="../Login/login.html">Salir</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <h1>Grupos</h1>
+        <div class="table-container">
+            <div class="search-filter">
+                <input type="text" placeholder="Buscar por nombre">
+                <button>Filtro</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Grupo</th>
+                        <th># Estudiantes</th>
+                        <th>Estado</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programación noche</td>
+                        <td>30</td>
+                        <td class="estado inactivo">Inactivo</td> 
+                        <td><a href="grupoEstudiantes.html">Ver grupo</a></td>
+                    </tr>
+                    <tr>
+                        <td>Bases de datos</td>
+                        <td>250</td>
+                        <td class="estado activo">Activo</td>
+                        <td><a href="grupoEstudiantes.html">Ver grupo</a></td>
+                    </tr>
+                    <tr>
+                        <td>Programación II</td>
+                        <td>2</td>
+                        <td class="estado inactivo">Inactivo</td>
+                        <td><a href="grupoEstudiantes.html">Ver grupo</a></td>
+                    </tr>
+                    <tr>
+                        <td>DCU</td>
+                        <td>25</td>
+                        <td class="estado inactivo">Inactivo</td>
+                        <td><a href="grupoEstudiantes.html">Ver grupo</a></td>
+                    </tr>
+                    <tr>
+                        <td>Experiencia de Usuario</td>
+                        <td>65</td>
+                        <td class="estado inactivo">Inactivo</td>
+                        <td><a href="grupoEstudiantes.html">Ver grupo</a></td>
+                    </tr>
+                    <tr>
+                        <td>Estructura de datos</td>
+                        <td>44</td>
+                        <td class="estado activo">Activo</td>
+                        <td><a href="grupoEstudiantes.html">Ver grupo</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script_inicio.js"></script>
+</body>
+</html>
